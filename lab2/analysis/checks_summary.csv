@@ -1,0 +1,4 @@
+set,t_star_brute,t_star_fast,tables_equal,passed
+A,0.4,0.4,True,True
+B,inf,inf,True,True
+C,0.8,0.8,True,True
