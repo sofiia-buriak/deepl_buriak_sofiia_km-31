@@ -1,0 +1,93 @@
+{
+  "test_macro_f1": 0.8892040654693513,
+  "test_accuracy": 0.8861517976031957,
+  "test_accuracy_se": 0.008195626988597764,
+  "selected_val_macro_f1": 0.8864172614944515,
+  "confusion_matrix": [
+    [
+      204,
+      1,
+      1,
+      1,
+      1,
+      11
+    ],
+    [
+      0,
+      236,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      207,
+      63,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      33,
+      224,
+      5,
+      0
+    ],
+    [
+      3,
+      1,
+      4,
+      5,
+      242,
+      0
+    ],
+    [
+      31,
+      0,
+      0,
+      1,
+      1,
+      218
+    ]
+  ],
+  "errors": [
+    {
+      "file": "20179.jpg",
+      "true": "glacier",
+      "pred": "mountain",
+      "prob": 0.919867753982544,
+      "count": 63
+    },
+    {
+      "file": "20116.jpg",
+      "true": "mountain",
+      "pred": "glacier",
+      "prob": 0.5995762348175049,
+      "count": 33
+    },
+    {
+      "file": "20353.jpg",
+      "true": "street",
+      "pred": "buildings",
+      "prob": 0.8639542460441589,
+      "count": 31
+    },
+    {
+      "file": "20752.jpg",
+      "true": "buildings",
+      "pred": "street",
+      "prob": 0.7497074007987976,
+      "count": 11
+    },
+    {
+      "file": "20304.jpg",
+      "true": "mountain",
+      "pred": "sea",
+      "prob": 0.7210627198219299,
+      "count": 5
+    }
+  ]
+}
