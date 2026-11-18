@@ -1,0 +1,5 @@
+*.onnx
+.venv/
+__pycache__/
+.DS_Store
+ЛР4 завдання.pdf
